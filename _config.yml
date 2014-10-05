@@ -2,8 +2,8 @@
 title: Dev/sysadmin thoughts
 email: michael@schouman.info
 description: > # this means to ignore newlines until "baseurl:"
-	On here i want to share my thoughts on being a Dev/Sysadmin.
-	You will find code snippets and unix commands on here and an occasional rant about technology, design or hacking related stuff.
+  On here i want to share my thoughts on being a Dev/Sysadmin.
+  You will find code snippets and unix commands on here and an occasional rant about technology, design or hacking related stuff.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://metalmini.github.io" # the base hostname & protocol for your site
 twitter_username: metalmini

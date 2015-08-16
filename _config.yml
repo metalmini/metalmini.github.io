@@ -1,13 +1,12 @@
 # Site settings
-title: Dev/sysadmin thoughts
+title: Portfolio Michael Schouman
+name: Michael Schouman
+job_title: Interactieve Media Professional
 email: michael@schouman.info
-description: > # this means to ignore newlines until "baseurl:"
-  On here i want to share my thoughts on being a Dev/Sysadmin.
-  You will find code snippets and unix commands on here and an occasional rant about technology, design or hacking related stuff.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://metalmini.github.io" # the base hostname & protocol for your site
+url: "http://www.schouman.info"
 twitter_username: metalmini
 github_username:  metalmini
+linkedin_username:  michaelschouman
 
 # Build settings
 markdown: kramdown

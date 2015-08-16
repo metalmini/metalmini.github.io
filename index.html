@@ -1,23 +1,421 @@
 ---
 layout: default
 ---
+<div class="row">
+    <div class="col-xs-12 col-sm-7">
+        <!-- ABOUT ME -->
+        <div class="box">
+            <h2><span class="fa fa-code fa-fw"></span> Over Mij</h2>
 
-<div class="home">
+            <p>Inmiddels heb ik ruim 10 jaar ervaring met <span class="dynacloud">Linux servers inrichten, beheren, onderhouden en monitoren</span>.
+                Daarnaast heb ik 5 jaar aan <span class="dynacloud">programmeer</span> ervaring op kunnen doen in
+                verschillende talen maar voornamelijk <span class="dynacloud">php</span>. In die tijd heb ik kennis
+                kunnen maken met verschillende <span class="dynacloud">frameworks</span> maar gaat mijn voorkeur naar
+                <span class="dynacloud">Symfony</span>.
+                Tijdens mijn stages ben ik vooral bezig geweest met het ontwikkelen van mijn creative kant. Hierdoor ben
+                ik erop gebrand om alles wat ik maak zo <span class="dynacloud">gebruiksvriendelijk</span> mogelijk te
+                maken.
+                In <span class="dynacloud">teamverband</span> werken is nooit een probleem geweest voor mij, ik kan mij
+                elke rol aanmeten die nodig zou zijn binnen een project. Of dit nu <span class="dynacloud">technisch, creatief of leidinggevend</span>
+                zou moeten zijn.
+                Uiteraard ben ik het liefst bezig met het ontwikkelen van toffe nieuwe projecten, van concept naar
+                oplevering en onderhoud.
+                Kortom, <span class="dynacloud">leergierig en altijd op zoek naar nieuwe uitdagingen</span>!
+            </p>
+        </div>
+        <!-- EDUCATION -->
+        <div class="box">
+            <h2><span class="fa fa-code fa-fw"></span> Tijdlijn</h2>
+            <ul id="education" class="clearfix">
+                <li>
+                    <div class="year pull-left">1983</div>
+                    <div class="description pull-right">
+                        <h3>Geboren te Apeldoorn</h3>
 
-  <h1 class="page-heading">Posts</h1>
+                        <p>Inmiddels 31 jaar oud.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="year pull-left">1996</div>
+                    <div class="description pull-right">
+                        <h3>Voortgezetonderwijs</h3>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        <p><strong><span class="dynacloud">VBO</span> opleiding, Schagen. </strong><br/>
+                            Richting: <span class="dynacloud">Verkoop</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="year pull-left">2000</div>
+                    <div class="description pull-right">
+                        <h3>Middelbaarberoepsonderwijs Niveau 3</h3>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+                        <p><strong>MBO opleiding (niveau 3), Alkmaar.</strong> <br/>
+                            Richting: <span class="dynacloud">Medewerker beheer informatiesystemen</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="year pull-left">2004</div>
+                    <div class="description pull-right">
+                        <h3>Middelbaarberoepsonderwijs Niveau 4</h3>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                        <p><strong><span class="dynacloud">MBO</span> opleiding (niveau 4), Amsterdam. </strong> <br/>
+                            Richting: <span class="dynacloud">IT Administrator</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="year pull-left">2009</div>
+                    <div class="description pull-right">
+                        <h3>Hogerberoepsonderwijs</h3>
 
+                        <p><strong><span class="dynacloud">HBO</span> opleiding, Amsterdam. </strong> <br/>
+                            Richting: <span class="dynacloud">Interactieve Media: Techniek Design & Interactie</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- EXPERIENCES -->
+        <div class="box">
+            <h2><span class="fa fa-code fa-fw"></span> Ervaringen</h2>
+
+            <div class="job clearfix">
+                <div class="col-xs-3">
+                    <div class="where">Pronexus</div>
+                    <div class="year">April 2012 - Heden</div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="profession">Developer</div>
+                    <div class="description">
+                        Bij Pronexus ben ik werkzaam als één van de drie ontwikkelaars die werken aan de "personen" tak van Pronexus.
+                        Dit houdt in dat wij ons voornamelijk bezig houden met de ontwikkeling van applicaties voor de gemeentelijke
+                        overheid op het gebied van leerplicht. Maar ook leerlingenvervoer en de begeleiding van voortijdigschoolverlaters.
+                        De software die wij ontwikkelen worden allemaal als een SAAS oplossing aangeboden. De SAAS omgeving wordt door mij
+                        onderhouden, gemonitoord en op korte termijn voorzien van een ISO certificering. Tevens heb ik een groot aandeel
+                        gehad in het het ontwikkelen van een deployment systeem om uitrol van code zo eenvoudig mogelijk te maken.
+                        De huidige applicaties zijn ontwikkeld in php met een Mysql of Oracle database. Verder wordt er gebruik gemaakt
+                        van javascript, css, html en verschillende frameworks.
+                    </div>
+                    <span class="fa fa-link fa-fw"></span> <a target="_blank" href="http://www.pronexus.nl">http://www.pronexus.nl</a>
+                </div>
+            </div>
+            <div class="job clearfix">
+                <div class="col-xs-3">
+                    <div class="where">EquineApps</div>
+                    <div class="year">Augustus 2012 - Heden</div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="profession">Developer</div>
+                    <div class="description">
+                        Begonnen als een project om kennis te maken met de ontwikkeling van IOS apps.
+                        Mijn persoonlijke speeltuin om te onderzoeken en om uiteindelijk toch iets op de markt te kunnen
+                        brengen. Inmiddels staat de <a href="https://itunes.apple.com/us/app/dierenartsen/id580972641?ls=1&mt=8">"Dierenartsen"</a> app al een tijd in de App Store en word regelmatig gedownload en geraadpleegd.
+                    </div>
+                    <span class="fa fa-link fa-fw"></span> <a target="_blank" href="http://www.equineapps.nl">http://www.equineapps.nl</a>
+                </div>
+            </div>
+            <div class="job clearfix">
+                <div class="col-xs-3">
+                    <div class="where">Connexx Communications Reclamebureau BV</div>
+                    <div class="year">Februari 2011 - Maart 2012</div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="profession">Developer</div>
+                    <div class="description">
+                        Als ontwikkelaar van Connexx was ik verantwoordelijk voor het bouwen van nieuwe projecten en het
+                        aanpassen en onderhouden van eerdere.
+                        Naast mijn ontwikkelkennis werd er hier ook veel aanspraak gedaan om mijn hosting en Linux
+                        kennis. Zo moesten er bij klanten servers worden ingericht voor een intranet maar ook de bestaande
+                        infrastructuur waar klanten van Connexx op draaiden moesten aangepakt worden.
+                        Mijn ervaring met verschillende webservices (soap, json, xml) werd in deze periode flink
+                        vergroot omdat bijvoobeeld vooraadsystemen van klanten gekoppeld moesten worden aan de door ons
+                        ontwikkelde webshop.
+                    </div>
+                    <span class="fa fa-link fa-fw"></span> <a target="_blank" href="http://www.connexx.nl">http://www.connexx.nl</a>
+
+                </div>
+            </div>
+            <div class="job clearfix">
+                <div class="col-xs-3">
+                    <div class="where">Eboman</div>
+                    <div class="year">September 2009 - Januari 2010</div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="profession">Stagiair</div>
+                    <div class="description">
+                        Bij <a target="_blank" href="http://www.Eboman.nl/">Eboman</a> werd mijn creativiteit flink op
+                        de proef gesteld.
+                        Zijn wilde ideeën en vrije geest hebben mijn soms te technisch ingestelde hersens flink moeten
+                        laten werken om toch te kunnen ontwikkelen wat hij wilde.
+                        Dankzij Eboman ben ik creatiever geworden en heb ik echt buiten de normale paden leren lopen.
+                        Aangemoedigd en geëinspireerd door hem heb ik daarom tijdens mijn afstuderen gekozen voor het
+                        maken van interactieve kunst met behulp van sensoren.
+                    </div>
+                    <span class="fa fa-link fa-fw"></span> <a target="_blank" href="http://www.smadsteck.nl/">http://www.smadsteck.nl</a>
+
+                </div>
+            </div>
+            <div class="job clearfix">
+                <div class="col-xs-3">
+                    <div class="where">Notice Branded Media</div>
+                    <div class="year">Mei 2008 - Juli 2008</div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="profession">Stagiair</div>
+                    <div class="description">
+                        In een 10 weekse stage heb ik in een sneltreinvaart geleerd hoe het is om in een audio visuele werkplek
+                        te werken. Hier werd meer van mijn creatieve kant gevraagd dan van mijn technische. Één van de eerste dingen
+                        die ik moest doen was dan ook een locatie scouten voor de opnamen van een reclame spot. Hier heb ik tevens veel kennis
+                        en ervaring opgedaan met de Adobe Creative Suite. En als klap op de vuurpijl heb
+                        <a href="https://www.youtube.com/watch?v=S6O2CW53FEI">ik de hoofdrol</a> gespeeld in een
+                        reclame spot voor de Blokker. Deze spot werd een aantal maanden in de winkel gedraaid.
+                    </div>
+                    <span class="fa fa-link fa-fw"></span> <a target="_blank" href="http://www.notice.nl/">http://www.notice.nl</a>
+                </div>
+            </div>
+            <div class="job clearfix">
+                <div class="col-xs-3">
+                    <div class="where">Infracom</div>
+                    <div class="year">Februari 2005 - Januari 2011</div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="profession">Sysadmin / Servicedesk</div>
+                    <div class="description">
+                        Al mijn Linux kennis heb ik bij Netland (nu Infracom) opgedaan. Met een werkgever die meehielp aan de ontwikkeling
+                        van Firefox en andere open source projecten waren wij altijd bezig met Linux. Bij Netland en Infracom was ik voornamelijk
+                        helpdesk medewerker en systems administrator. Inrichten en configureren van servers, beantwoorden van e-mail en beveiliging
+                        aanscherpen hoorden tot de dagelijkse werkzaamheden.
+                    </div>
+                    <span class="fa fa-link fa-fw"></span> <a target="_blank" href="http://www.infracom.nl/">http://www.infracom.nl</a>
+                </div>
+            </div>
+            <div class="job clearfix">
+                <div class="col-xs-3">
+                    <div class="where">Gemini Ziekenhuis Den Helder</div>
+                    <div class="year">Januari 2004 - Juli 2004</div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="profession">Stagiair</div>
+                    <div class="description">
+                        Mijn stage bij het ziekehuis hield voornamelijk in dat ik mij bezig hield met het onderhouden van een Novell netwerk.
+                        Dit hield ook in dat gebruikers aangemaakt en aangemeld moesten worden, nieuwe werkstations inrichten en uiteraard helpdesktaken
+                        die daaruit voortvloeiden.
+                    </div>
+                    <span class="fa fa-link fa-fw"></span> <a target="_blank" href="http://www.gemini-ziekenhuis.nl/">http://www.gemini-ziekenhuis.nl</a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <h2><span class="fa fa-code fa-fw"></span> Tag cloud</h2>
+
+            <div id="dynacloud"></div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-5">
+        <!-- CONTACT -->
+        <div class="box clearfix">
+            <h2><span class="fa fa-code fa-fw"></span> Contact</h2>
+
+            <div class="contact-item">
+                <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+                <div class="title only pull-right"><a class="contact" data-bb="custom_form" href="#">
+                    {{ site.email }}</a></div>
+            </div>
+            <div class="contact-item">
+                <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+                <div class="title pull-right">Twitter</div>
+                <div class="description pull-right"><a href="https://twitter.com/{{ site.twitter_username }}">https://twitter.com/
+                    {{ site.twitter_username }}</a></div>
+            </div>
+            <div class="contact-item">
+                <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
+                <div class="title pull-right">Github</div>
+                <div class="description pull-right"><a href="https://www.github.com/{{ site.github_username }}">https://www.github.com/
+                    {{ site.github_username }}</a></div>
+            </div>
+            <div class="contact-item">
+                <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
+                <div class="title pull-right">LinkedIn</div>
+                <div class="description pull-right"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">https://www.linkedin.com/in/
+                    {{ site.linkedin_username }}</a></div>
+            </div>
+        </div>
+        <!-- SKILLS -->
+        <div class="box">
+            <h2><span class="fa fa-code fa-fw"></span> Talen</h2>
+
+            <div class="skills">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">HTML
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">CSS
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">JavaScript
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">PHP
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Bash
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Sql
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Objective C
+                    </div>
+                </div>
+
+                <div class="skills-legend clearfix">
+                    <div class="legend-left legend">Beginner</div>
+                    <div class="legend-left legend"><span>Voldoende</span></div>
+                    <div class="legend-right legend"><span>Expert</span></div>
+                    <div class="legend-right legend">Master</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2><span class="fa fa-code fa-fw"></span> Frameworks</h2>
+
+            <div class="skills">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Symfony2
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">WordPress
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">jQuery
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Twig
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Smarty
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Appcelerator Titanium
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="35"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">CakePHP
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="25"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Zend Framework 2
+                    </div>
+                </div>
+
+                <div class="skills-legend clearfix">
+                    <div class="legend-left legend">Beginner</div>
+                    <div class="legend-left legend"><span>Voldoende</span></div>
+                    <div class="legend-right legend"><span>Expert</span></div>
+                    <div class="legend-right legend">Master</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2><span class="fa fa-code fa-fw"></span> Creative</h2>
+
+            <div class="skills">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Photoshop
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Ilustrator
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">After Effects
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">Premiere Pro
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                         aria-valuemin="0" aria-valuemax="100" style="width: 0;">InDesign
+                    </div>
+                </div>
+
+                <div class="skills-legend clearfix">
+                    <div class="legend-left legend">Beginner</div>
+                    <div class="legend-left legend"><span>Voldoende</span></div>
+                    <div class="legend-right legend"><span>Expert</span></div>
+                    <div class="legend-right legend">Master</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LANGUAGES -->
+        <div class="box">
+            <h2><span class="fa fa-code fa-fw"></span> Taal</h2>
+
+            <div id="language-skills">
+                <div class="skill">Nederlands
+                    <div class="icons pull-right">
+                        <div style="width: 100%;" class="icons-red"></div>
+                    </div>
+                </div>
+                <div class="skill">Engels
+                    <div class="icons pull-right">
+                        <div style="width: 90%;" class="icons-red"></div>
+                    </div>
+                </div>
+                <div class="skill">Duits
+                    <div class="icons pull-right">
+                        <div style="width: 80%;" class="icons-red"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HOBBIES -->
+        <div class="box">
+            <h2><span class="fa fa-code fa-fw"></span> Hobbies</h2>
+
+            <div class="hobby">Paarden</div>
+            <div class="hobby">Films & series</div>
+            <div class="hobby">Leren</div>
+            <div class="hobby">Koken</div>
+            <div class="hobby">Fotografie</div>
+            <div class="hobby">Design</div>
+            <div class="hobby">DIY</div>
+        </div>
+    </div>
 </div>
